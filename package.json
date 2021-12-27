@@ -77,12 +77,6 @@
       "<rootDir>/lib/"
     ]
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn lint && yarn typescript"
-    }
-  },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
@@ -139,8 +133,7 @@
     "output": "lib",
     "targets": [
       "commonjs",
-      "module",
-      "typescript"
+      "module"
     ]
   },
   "dependencies": {
