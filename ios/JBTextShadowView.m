@@ -15,6 +15,8 @@
 #import "NSTextStorage+FontScaling.h"
 #import <React/RCTTextView.h>
 
+NSString *const RCTBaseTextShadowViewEmbeddedShadowViewAttributeName = @"RCTBaseTextShadowViewEmbeddedShadowViewAttributeName";
+
 @implementation JBTextShadowView
 {
   __weak RCTBridge *_bridge;
